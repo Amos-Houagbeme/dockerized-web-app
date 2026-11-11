@@ -1,0 +1,11 @@
+# Secrets : ne jamais versionner le vrai .env
+.env
+
+# Dépendances installées localement
+node_modules/
+
+# Fichiers parasites d'éditeur
+*.save
+*.swp
+*~
+*.log

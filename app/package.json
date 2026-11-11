@@ -1,0 +1,17 @@
+{
+  "name": "dockerized-web-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Application web minimale (notes Pense-bête, Node.js + PostgreSQL) pour le lab Docker",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "pg": "^8.13.0"
+  }
+}
